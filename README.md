@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Face Scan Detection System
 
-## Getting Started
+## Overview
+![fd](https://github.com/KangBubur1/Face_detection/assets/95082947/b23591c6-988f-4d4c-878a-f665ebde6d97)
+![image](https://github.com/KangBubur1/Face_detection/assets/95082947/b16f6b7a-f9e1-48f4-92b0-852989e6dad4)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project demonstrates a face scan detection system using Next.js for the frontend, Flask and Python for the backend, and Firebase for data storage and authentication. Users can scan their faces, which are then detected and processed for authentication, access control, or entertainment purposes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Face Scanning**: Users upload images with faces, which are then processed by the system.
+- **Face Detection**: Advanced algorithms identify faces within uploaded images.
+- **Authentication**: Firebase integration provides secure user authentication.
+- **Real-time Updates**: Users receive live updates on the scanning process and results.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- **Next.js**: React framework for server-side rendered and statically generated web apps.
+- **Flask**: Lightweight Python framework for building web applications.
+- **Python**: Backend processing, including face detection and manipulation.
+- **Firebase**: Google's app development platform for authentication, real-time database, and cloud storage.
 
-To learn more about Next.js, take a look at the following resources:
+## How To Run
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Ensure you have Python 3.11 and Dlib 3.11 installed correctly. If using other versions, it may cause issues.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Web Application
 
-## Deploy on Vercel
+1. Run the following command in your terminal:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Access the web application at `http://localhost:3000`.
+
+### Backend API
+
+1. Navigate to the API directory:
+
+    ```
+    cd api
+    ```
+
+2. Run the Flask application:
+
+    ```
+    python app.py
+    ```
+
+## Contributors
+
+- [Alvin Hartono](https://github.com/AlvinHartono)
+- [William Wili](https://github.com/williamwili)
+- [Yong Teck](https://github.com/yongteck0528)
+- [Kindy]()
+
